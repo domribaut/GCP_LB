@@ -18,7 +18,7 @@ Specifically for the load balancer :  https://github.com/terraform-google-module
 
 * We create a Public IP and public  SSL-certificate in the start of the terraform script. Refer to documentation if you want to use your own.  
 Note: the public IP must be in the same project that the LB (can be moved from another project if necessary).  
-See below to create a managed DNS zone, with sub domains linked to an IP
+See at the end of the readme for terraform examples to create a managed DNS zone, with sub domains linked to an IP
 
 ## setup your environment
 
