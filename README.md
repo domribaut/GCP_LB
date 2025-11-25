@@ -4,8 +4,8 @@ The load balancer is a central piece of the software defined network in Google C
 The main reason is learning and understanding each component which get hide in some modules.
 
 Google Cloud has extensive documentation  on how to design your infrastructure in GCP. The https://docs.cloud.google.com/architecture/framework is a good place to start.  
-There is a large repository of Terraform  blueprints available at https://docs.cloud.google.com/docs/terraform/blueprints/terraform-blueprints  
-Specifically for the load balancer :  https://github.com/terraform-google-modules/terraform-google-lb  
+There is a large repository of [Terraform  blueprints](https://docs.cloud.google.com/docs/terraform/blueprints/terraform-blueprints)  
+Specifically for the load balancer [module](https://github.com/terraform-google-modules/terraform-google-lb)  
 
 ## Overview over  resources to build   
 ![Component of a GCP load balancer](assets/lb_gcs.png).
