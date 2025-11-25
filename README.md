@@ -22,6 +22,7 @@ See at the end of the readme for terraform examples to create a managed DNS zone
 ## setup your environment
 
 * terraform resources are defined in infra/
+* You should be able to run each numbered element one by one if you want to.
 * set your project ID and  project number in the  config.tf file or use the terraform.tf
 * `terraform init`
 * `terraform plan` to see what will be created and `terraform apply` to create the actual infrastructure.
